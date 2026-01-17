@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: AsthaRani2/testnodejsapp
+          images: AsRani2/testnodejsapp
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
